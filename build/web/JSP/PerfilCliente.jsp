@@ -36,7 +36,7 @@
                 PreparedStatement sta;
                    
                 
-                sta = con.prepareStatement("SELECT * FROM cliente WHERE nombre = ?");
+                sta = con.prepareStatement("SELECT * FROM Cliente WHERE nombre = ?");
                 sta.setString(1, nombre);
                 ResultSet rs = sta.executeQuery();
                     rs.next();
