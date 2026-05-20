@@ -9,6 +9,7 @@
     </head>
     <body>
         <%
+            request.setCharacterEncoding("UTF-8");
             String nombre = request.getParameter("nombre");
             String contrasena = request.getParameter("contraseña");
             
